@@ -4,42 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacts</title>
+    <title>Personal Website</title>
     <link rel="stylesheet" href="style.css">
     <script src="javascript.js"></script>
 </head>
 <body>
     <header>
-        <topnav>
-        <div class="topnav">
-            <a href="about.html"></a>
-            <a href="porfolio.html"></a>
-            <a href="index.html"></a>
-            <a class="active" href="Contacts.html"></a>
-        </div>
-    <nav class="navbar">
-        <div class="navbar_container">
-            <div class="navbar_toggle" id="mobile menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-        </div>
-        <ul class="navbar_menu">
-            <li class="navbar_item">
-                <a href="/" class="navbar_links">Home</a>
-                </li>
-            <li class="navbar_item">
-                    <a href="/About.html"class="navbar_links">About</a>
-            <li class="navbar_item">
-                        <a href="/" class="navbar_links">Porfolio</a>
-            </li>
-            <li class="navbar_item">
-                <a href="/" class="navbar_links">Contacts</a>
-        </ul>
-    </nav>
-    <h1>Contacts</h1>
-    <a href="index.html"Home></a>
-    <p>I would love to provide you with insight about myself including my hobbies. I enjoy working on cars, building gaming computers, and spending time with friends/family. I also love using my spare time to enhance my capabilities and knowledge.</p>
-</div>
+      <div>
+        <nav>
+          <button class="button"><li><a class="active" href="index.html">Home</a></li></button>
+          <button class="button"><li><a href="about.html">About</a></li></button>
+          <button class="button"><li><a href="porfolio.html">Porfolio</a></li></button>
+          <button class="button"><li><a href="Contacts.html">Contacts</a></li></button>
+        </nav>
+      </div>
+<h2><p>Please fill out the form below.</p></h2>
+<form action="formsubmit.html"><br>
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <label for="Message">Message:</label>
+  <input type="Message"><br><br>
+  <label for="email">Email:</label>
+  <input type="email">
+  <input type="submit" value="Submit">
+</form>
 </body>
 </html>
